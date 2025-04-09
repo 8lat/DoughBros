@@ -20,6 +20,8 @@
 
 body {
     background-color: var(--eggshell);
+    margin: 0;
+    padding-top: 50px; 
 }
 
 .mainframe {
@@ -67,6 +69,19 @@ body {
 }
 
 /* please work lol */
+
+.announcement-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Outfit', 'Young Serif', sans-serif;
+    font-size: 16px;
+    z-index: 1000;
+  }
 
 #omelette-image {
     display: flex;
